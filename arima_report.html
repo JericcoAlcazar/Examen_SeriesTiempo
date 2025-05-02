@@ -1,0 +1,45 @@
+
+<html>
+<head><title>Reporte ARIMA</title></head>
+<body>
+<h2>Resultado de la prueba ADF</h2>
+<ul>
+  <li>ADF Statistic: -0.4674</li>
+  <li>p-value: 0.8982</li>
+  <li>Interpretación: No estacionaria (se aplicó diferenciación).</li>
+</ul>
+<h2>Pronóstico a 5 pasos</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pronóstico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>489</th>
+      <td>1091.000217</td>
+    </tr>
+    <tr>
+      <th>490</th>
+      <td>1088.632964</td>
+    </tr>
+    <tr>
+      <th>491</th>
+      <td>1086.354759</td>
+    </tr>
+    <tr>
+      <th>492</th>
+      <td>1084.162252</td>
+    </tr>
+    <tr>
+      <th>493</th>
+      <td>1082.052221</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Gráfico</h2>
+<img src='forecast_plot.png' width='700'>
+</body>
+</html>
